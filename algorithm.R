@@ -40,8 +40,8 @@ goldenSectionSearch <- function (func, a, b, steps) {
 steps <- 50000
 
 goldenSectionSearch(f_a, -1, 3, steps)
-goldenSectionSearch(f_b, 4, 6, steps)
-goldenSectionSearch(f_c, -10, -8, steps)
-goldenSectionSearch(f_d, 19, 20, steps)
-goldenSectionSearch(f_e, 0, 2, steps)
+goldenSectionSearch(f_b, -10, 8, steps)
+goldenSectionSearch(f_c, 1.9, 3.9, steps)
+goldenSectionSearch(f_d, 0, 1.2, steps)
+goldenSectionSearch(f_e, -10, 10, steps)
 
